@@ -76,6 +76,7 @@ nav .profile-link {
 nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .home-main {
@@ -102,8 +103,8 @@ nav .profile-link a {
 
 .home-main .home-main-button {
     background-color: #47cfac;
-    width: 96px;
-    height: 48px;
+    width: 110px;
+    height: 50px;
     border-radius: 4px;
     font-family: 'Roboto Serif', serif;
     font-weight: bold;
@@ -111,4 +112,5 @@ nav .profile-link a {
     position: absolute;
     top: 50%;
     left: calc(50% - 48px);
+    letter-spacing: 2px;
 }
