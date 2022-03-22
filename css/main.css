@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+    
+}
+
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    justify-self: end;  
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 48px;   
+}
+
+header .icons span {
+    color: rgba(255, 255, 255, 0.782);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 4px;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-logo-container img {
+    width: 250px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.home-main {
+    background-image: url(/assets/img/Cover.png);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 85%;
+    display: grid;    
+    text-align: center;
+    position: relative;
+}
+
+.home-main .home-main-title {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    line-height: 64px;
+    margin-top: 64px;
+    font-size: 40px;
+    letter-spacing: 12px;
+}
+
+.home-main .home-main-button {
+    background-color: #47cfac;
+    width: 96px;
+    height: 48px;
+    border-radius: 4px;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 48px);
+}
