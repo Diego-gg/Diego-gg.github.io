@@ -7,6 +7,18 @@
 }
 
 body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+.home-body {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -14,10 +26,9 @@ body {
     right: 0;
 }
 
-a {
-    text-decoration: none;
-    display: inline;
-    color: black;
+.grid-container {
+    max-width: 980px;
+    margin: auto;
 }
 
 header {
@@ -64,6 +75,7 @@ nav .nav-logo-container {
 
 nav .nav-logo-container img {
     width: 250px;
+
 }
 
 nav .profile-link {
@@ -113,4 +125,98 @@ nav .profile-link a {
     top: 50%;
     left: calc(50% - 48px);
     letter-spacing: 2px;
+    padding-top: 12px;
+}
+
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-main-new .blogs-news-img-container img {
+    border-radius: 4px;
+}
+
+.blogs-main-new H3 {
+    padding: 8PX 0 12PX;
+}
+
+.blogs-news-img-container {
+    grid-column: 1;
+}
+
+.blogs-news-img-container img {
+    width: 85%;
+}
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+
+}
+
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3 {
+    border-bottom: 1px solid #CDD2DA;
+    padding-bottom: 20PX;
+    padding-top: 8PX ;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.blogs-button {
+    border: 1px solid #47cfac;
+    padding: 10px  15px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.blogs-posts-container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+}
+
+.blogs-posts-container-grid .post-container {
+    padding-left: 10px;
+    max-width: 100%;
+    margin-bottom: 50px;
+    }
+
+.blogs-posts-container .post-container p {
+    margin-bottom: 35px;
+}
+
+.blogs-posts-container .post-container img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid  #47cfac;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    margin-top: 10px;
 }
