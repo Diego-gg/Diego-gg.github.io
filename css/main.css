@@ -92,7 +92,7 @@ nav .profile-link a {
 }
 
 .home-main {
-    background-image: url(/assets/img/Cover.png);
+    background-image: url(https://i.postimg.cc/Nj6Z2D3T/Cover.png);
     background-position:center ;
     background-repeat: no-repeat;
     background-size:cover;
@@ -219,4 +219,59 @@ footer {
 footer p {
     color: white;
     margin-top: 10px;
+}
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+   border-bottom: 1px solid #cdd2da ;
+   padding-bottom: 20px;
+}
+
+.grid-container article p {
+    margin-bottom: 24px;
+}
+
+.grid-container article h1 { 
+    margin-bottom: 24px;
+    margin-top: 16px;
+    font-size:  28px;
+}
+
+.contact-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #e6e9ed ;
+}
+
+.contact-divs {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    padding-top: 52px;
+    padding-bottom: 104px;
+    padding-right: 72px;
+}
+.contact-divs img {
+    width: 120px;
+    justify-self: end;
+    padding-right: 12px;
+}
+
+.contact-divs div a {
+    border-bottom:  1px solid #22272d;
+}
+
+.contact-divs div p {
+    margin-top: 16px;
 }
