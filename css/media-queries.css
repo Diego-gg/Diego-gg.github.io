@@ -1,0 +1,141 @@
+@media (max-width: 900px) {
+
+    .home-main .home-main-title {
+        font-size: 28px;
+        letter-spacing: 4px;
+    }
+
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        text-align: center;
+    }
+
+    .blogs-news-container {
+        padding: 0 30px 40px;
+    }
+    .blogs-news-img-container {
+        grid-row: 2;
+    }
+
+    .blogs-news-info-container {
+        grid-column: 1;
+        grid-row: 3;
+        margin: 0 80px;
+    }
+
+    .blogs-posts-container-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .main-perfil .main-perfil-saludo {
+        grid-template-columns: 1fr;
+        height: 650px;
+        padding: 10px 20px;
+    }
+
+    .main-perfil .main-perfil-saludo img {
+        max-width: 650px;
+    }
+
+    .main-perfil .main-perfil-saludo  div{
+        margin: 12px 0;
+    }
+
+    .main-perfil-proyectos .proyectos-container-grid {
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    .main-perfil-proyectos .proyectos-container-grid p {
+        margin: 15px 0;
+    }
+
+    .main-perfil-proyectos .proyectos-container-grid {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .contact-main-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-main-container .contact-divs {
+        padding: 20px 10% 20px 0;
+    }
+}
+
+@media (max-width: 600px) {    
+
+    .home-main .home-main-title {
+        letter-spacing: 0;
+        margin: 10px 20px;
+        line-height: 35px;
+    }
+
+    .blogs-news-info-container {
+        margin: 0;
+    }
+
+    .blogs-posts-container-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .blogs-posts-container {
+        padding: 0 20px 40px;
+    }    
+
+    .main-perfil-proyectos .proyectos-container-grid  {
+        grid-template-columns: 1fr;
+    }
+
+
+    .main-perfil .main-perfil-saludo img {
+        width: 100%;
+        max-width: 500px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width:480px) {
+    header {
+        height: 100px;
+    }
+
+    header .nav-logo-container {
+        margin-left: 20px;
+        height: 60px;
+    }
+    nav .nav-logo-container img {
+        width: 180px;
+    }
+
+    header nav .profile-link {
+        margin-right: 20px;
+    }
+
+    .blogs-posts-container-grid .post-container {
+        padding-left: 0 ; 
+    }
+
+    .main-perfil .main-perfil-saludo img{
+        min-width: 300px;
+    }
+
+    .main-perfil .main-perfil-saludo div {
+        margin: 0;
+    }
+
+    .blogpost-img-container {
+        width: 100%;
+        padding: 12px 20px;
+    }
+
+    .blogpost-main-container {
+       padding: 0 20px;
+    }
+}
+

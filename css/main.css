@@ -75,7 +75,6 @@ nav .nav-logo-container {
 
 nav .nav-logo-container img {
     width: 250px;
-
 }
 
 nav .profile-link {
@@ -163,9 +162,12 @@ nav .profile-link a {
     grid-column: 2;
 }
 
+.blogs-news-info-container h2 {
+    margin-bottom: 12px;
+}
+
 .blogs-news-info-container p {
     margin-bottom: 35px;
-
 }
 
 .blogs-posts-container {
@@ -248,10 +250,15 @@ footer p {
     font-size:  28px;
 }
 
+.fondo-contact-main-container {    
+    background-color: #e6e9ed ;
+}
+
 .contact-main-container {
+    max-width: 980px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #e6e9ed ;
 }
 
 .contact-divs {
@@ -280,13 +287,19 @@ footer p {
     margin: auto;
 }
 
+.fondo-main-perfil-saludo {
+    background-color: #cdd2da;
+}
+
 .main-perfil .main-perfil-saludo {
     width: 100%;
     height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #cdd2da;
+    
     padding: 60px;
+    max-width: 980px;
+    margin: auto;
 }
 
 .main-perfil .main-perfil-saludo img {
@@ -294,7 +307,7 @@ footer p {
     min-width: 250px;
     max-width: 500px;
     justify-self: end;
-    padding-right: 15px;
+    padding-right: 30px;
     border-radius: 3px;
     place-self: center;
 }
