@@ -1,3 +1,6 @@
+:root {
+    --principal: #0d90d6;
+  }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 
 * {
@@ -42,7 +45,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: #47cfac;
+    background-color: var(--principal);
     
 }
 
@@ -58,7 +61,7 @@ header .header-icons-container .icons {
 }
 
 header .icons span {
-    color: rgba(255, 255, 255, 0.782);
+    color: white;
 }
 
 nav {
@@ -68,13 +71,14 @@ nav {
 }
 
 nav .nav-logo-container {
-    margin-left: 50px;
+    margin-left: 40px;
+    margin-top:15px;
     display: flex;
     align-items: center;
 }
 
 nav .nav-logo-container img {
-    width: 250px;
+    width: 200px;
 }
 
 nav .profile-link {
@@ -82,11 +86,13 @@ nav .profile-link {
     align-items: center;
     justify-content: end;
     margin-right: 50px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 nav .profile-link a {
     color: black;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -114,7 +120,7 @@ nav .profile-link a {
 }
 
 .home-main .home-main-button {
-    background-color: #47cfac;
+    background-color: var(--principal);
     width: 110px;
     height: 50px;
     border-radius: 4px;
@@ -141,6 +147,10 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
+}
+
+.blogs-main-new h3 {
+    font-size: 24px;
 }
 
 .blogs-main-new .blogs-news-img-container img {
@@ -177,14 +187,17 @@ nav .profile-link a {
 
 .blogs-posts-container h3 {
     border-bottom: 1px solid #CDD2DA;
-    padding-bottom: 20PX;
-    padding-top: 8PX ;
+    padding-bottom: 12px;
+    padding-top: 16px ;
     text-align: center;
     margin-bottom: 24px;
+    background-color: rgba(180, 184, 181, 0.049);
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .blogs-button {
-    border: 1px solid #47cfac;
+    border: 1px solid var(--principal);
     padding: 10px  15px;
     font-size: 12px;
     border-radius: 3px;
@@ -202,26 +215,33 @@ nav .profile-link a {
     margin-bottom: 50px;
     }
 
+.blogs-posts-container-grid .post-container p:first-of-type {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .blogs-posts-container .post-container p {
     margin-bottom: 35px;
 }
 
 .blogs-posts-container .post-container img {
     width: 100%;
+    height: 50%;
     border-radius: 4px;
 }
 
 footer {
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: #22272d;
-    border-top: 35px solid  #47cfac;
+    border-top: 35px solid var(--principal);
     text-align: center;
+    padding: 10px 10px
 }
 
-footer p {
+footer p a{
     color: white;
-    margin-top: 10px;
 }
 
 .blogpost-img-container {
