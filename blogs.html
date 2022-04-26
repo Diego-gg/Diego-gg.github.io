@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blog</title>
+        <title>Blogs</title>
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="css/font/flaticon.css">
         <link rel="stylesheet" href="/css/media-queries.css">
 
 
     </head>
-    <body> 
+    <body>
         <header>
             <section class="header-icons-container"> 
                 <div class="icons">
@@ -23,7 +23,7 @@
                 </div>
             </section>
             <nav>
-                <section class="grid-container nav-logo-container">
+                <section class="nav-logo-container">
                     <a href="/index.html"><img src="https://i.postimg.cc/jdxxt4q3/logo-blog.png" alt="Logo de mi blog"></a>
                 </section>
                 <section class="profile-link">
@@ -31,44 +31,71 @@
                 </section>
             </nav>
         </header>
-        <main>
-            <section class="blogpost-img-container">
-                <img src="https://i.postimg.cc/bJHrMc8z/starship.png" alt="">
+        
+        <main class="blogs-main">
+            <section class="blogs-news-container">
+                <div class="grid-container blogs-main-new">
+                    <h3></h3>
+                    <div class="blogs-news-img-container">
+                        <img src="https://i.postimg.cc/ZqynsCL6/WebDev.png" alt="">
+                    </div>
+                    <div class="blogs-news-info-container">
+                        <h2>Here a random blog, I do it to practice my knowledge in CSS and HTML skills.</h2>
+                        <p>I'll leave here some people who inspire me and also those who share incredible content on Twitter.</p>
+                        <a class="blogs-button" href="/blog.html">Leer mas</a>
+                    </div>
+                </div>
+               
             </section>
-            <section class="blogpost-main-container">
-                <div class="grid-container">
-                    <h3>First blog</h3>
-                    <article>
-                        <h1>I love science and technology</h1>
-                        <p>Always who I hearer some related to the science or technology I would excite. My first contact with the technology  who I remember was with a radio of my mom, i liked arm and disarm the radio, whenever I disarm I kept looking all of components, I was curious their colors and how they come together the different component, also was much curious why moving the knob changed the station. This was my first approach to the technology and science.</p>
-
-                        <p>I always liked math. Ever since I was a child I was doing well, whenever they did "contests" I was doing very well, in fact I won many of them. Unfortunately, indiscipline and immaturity kept me far from what today at 29 I want to be. A web developer. I think I still have time to focus and be able to do so, I will do my best to achieve it and if I can help many along the way, I will.</p>
-
-                        <p>I decided to start with "frontend and backend" web development, however, I am very interested in data science, machine learning and that related to neural networks. I hope to become an excellent web developer and in the future specialize in one of the ones I mentioned.</p>
-
-                        <p>At the moment I take it as a hobby, but I do hope to learn enough in less than 1 year to start looking for a job as a junior frontend and progressively improve all the skills that are required in the industry.</p>                    </article>
+            <section class="blogs-posts-container">
+                <h3>People who inspire me.</h3>
+                <div class="grid-container blogs-posts-container-grid">
+                    <article class="post-container">
+                        <img src="https://i.postimg.cc/9F8mnb1k/cr7.png" alt="">
+                        <p>Cristiano Ronaldo</p>
+                        <p>For me an example for his talent for soccer and his dicipline as an deportist. Whitout a doubt one of the best footballers in the world.</p>
+                        <a class="blogs-button" target="_blank" href="https://www.instagram.com/cristiano/?hl=es">CR7's Instagram</a>
+                    </article>
+                    <article class="post-container">
+                        <img src="https://i.postimg.cc/K8CZZY6r/elonMusk.png" alt="">
+                        <p>Elon Musk</p>
+                        <p>He inspires me by his unbreakable spirit to achieve what he sets out to do, everything he has done is incredible. He is a different person from the others and he knows it.</p>
+                        <a class="blogs-button" target="_blank" href="https://twitter.com/elonmusk">Elon's twitter</a>
+                    </article>
+                    <article class="post-container">
+                        <img src="https://i.postimg.cc/6p8WJZmp/freddy-Vega.png" alt="">
+                        <p>Freddy Vega</p>
+                        <p>Colombian who believed in himself and got ahead from scratch. He is cofounder of a company that is truly transforming Latin America into a powerhouse. He inspires me to never stop learning. </p>
+                        <a class="blogs-button" target="_blank" href="https://twitter.com/freddier">Freddy's Twitter</a>
+                    </article>                    
                 </div>
             </section>
-            <section class="fondo-contact-main-container">
-                <section class="contact-main-container">
-                    <div class="contact-divs">
-                        <img src="https://i.postimg.cc/y8FxJLTZ/logo-Twitter.png" alt="">
-                        <div class="contact-left">
-                            <a href="">Drico_gg</a>
-                        </div>
-                    </div>
-                    <div class="contact-divs">
-                        <img src="https://i.postimg.cc/sxCsRhBR/logo-Outlook.png" alt="">
-                        <div class="contact-right">
-                            <p>Enviame un correo a:</p>
-                            <p>diegoricocastro@hotmail.com</p>
-                        </div>
-                    </div>
-                </section>
-                
+            <section class="blogs-posts-container">
+                <h3>People who share incredible content on Twitter and Youtube.</h3>
+                <div class="grid-container blogs-posts-container-grid">
+                    <article class="post-container">
+                        <img src="https://i.postimg.cc/0QBK9zgr/midudev.png" alt="">
+                        <p>Miguel Duran @midudev</p>
+                        <p>He is a Great developer, he teaches to us about JavaScript + CSS + React. He also makes constant transmissions on Twitch solving challenges and more.</p>
+                        <a class="blogs-button" target="_blank" href="https://twitter.com/midudev">Midudev's Twitter</a>
+                    </article>
+                    <article class="post-container">
+                        <img src="https://i.postimg.cc/DwbmrXfn/Marko.png" alt="">
+                        <p>Marko @denicmarko</p>
+                        <p>He share tips, tricks and more about HTML, CSS and Javascript. His content is in English I learn both at the same time.</p>
+                        <a class="blogs-button" target="_blank" href="https://twitter.com/denicmarko">Marko's twitter</a>
+                    </article>
+                    <article class="post-container">
+                        <img src="https://i.postimg.cc/KjcHk8sB/hola-Mundo.png" alt="">
+                        <p>Nicolas @_nasch_</p>
+                        <p>More  than 10 years of experience, has courses on Udemy and shares incredible content on Youtube.</p>
+                        <a class="blogs-button" target="_blank" href="https://twitter.com/_nasch_">Nicola's Twitter</a>
+                    </article>
+                    
+                </div>
             </section>
         </main>
-        
+
         <footer>
             <p><a href="https://twitter.com/Drico_gg" target="_blank">Si tienes consejos o material que quieras compartir conmigo puedes hacerlo por Twitter @Drico_gg.<br> I will thank you.</a></p>
         </footer>
