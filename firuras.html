@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas | Platzi</title>
+    <link rel="stylesheet" href="/css/figura.css">
+</head>
+<body>
+    <header>
+        <h1>Figuras geométricas</h1>
+        <p>Taller practico JS Basico</p>
+    </header>
+    <section class="sectiontitle">
+        <h2 class="container-title">
+            Calcula el area y perimetro de tres figuras geometricas
+        </h2>
+    </section>
+    <div class="fondo">
+
+    </div>
+    <section class="container">
+        
+        <div>            
+            <form class="container-form" action="">
+                <label for="inputCuadrado">Escribe cuanto mide un lado del cuadrado 🟥</label>
+                <input id="inputCuadrado" type="number" placeholder="Digita la medida">
+                <button class="boton1-cuadrado" type="button" onclick="calcularPerimetroCuadrado()" >Calcular perimetro</button>
+                <button class="boton2-cuadrado" type="button" onclick="calcularAreaCuadrado()">Calcular area</button>
+            </form>
+        </div>
+        <div>
+            <form class="container-form" action="">
+                <label for="inputCirculo">Escribe el radio del circulo 🔴</label>
+                <input id="inputCirculo" type="number" placeholder="Digita aqui el radio del circulo">
+                <button class="boton1-cuadrado" type="button" onclick="calcularPerimetroCirculo()" >Calcular perimetro</button>
+                <button class="boton2-cuadrado" type="button" onclick="calcularAreaCirculo()">Calcular area</button>
+            </form>
+        </div>
+        <div> 
+            <form class="container-form" action="">
+                <label for="inputTriangulo">Escribe cuanto mide un lado del triangulo 🔺 "Equilatero"</label>
+                <input id="inputTriangulo" type="number" placeholder="Digita la medida">
+                <button class="boton1-cuadrado" type="button" onclick="calcularPerimetroTriangulo()">Calcular perimetro</button>
+                <button class="boton2-cuadrado" type="button" onclick="calcularAreaTriangulo()">Calcular area</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="/JS/figura.js"></script>
+</body>
+</html>
